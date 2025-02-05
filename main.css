@@ -1,6 +1,7 @@
 body {
   background-color: ffffa5;
 }
+
 h1 {
   color: olive;
   font-size: 50px;
@@ -8,4 +9,13 @@ h1 {
   font-family: "Comic Sans", "Comic Sans MS";
   background-color: 3d4619;
   display: inline;
+}
+
+div {
+  padding-top: 10px;
+  rotate: 9deg;
+}
+
+.p1 {
+  rotate: -18deg;
 }
