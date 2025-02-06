@@ -1,5 +1,5 @@
 body {
-  background-color: ffffa5;
+  background-color: #ffffa5;
 }
 
 h1 {
@@ -7,15 +7,45 @@ h1 {
   font-size: 50px;
   text-align: center;
   font-family: "Comic Sans", "Comic Sans MS";
-  background-color: 3d4619;
+  background-color: #3d4619;
   display: inline;
 }
 
 div {
-  padding-top: 10px;
-  rotate: 9deg;
+  font-family: "Comic Sans", "Comic Sans MS";
+  color: #eaeef2;
+}
+
+p {
+  display: block;
+  background-color: white;
+  transform-origin: center; 
+  white-space: nowrap;
+  width: fit-content;
 }
 
 .p1 {
   rotate: -18deg;
+}
+
+.p2 {
+  rotate: 5deg;
+}
+.p3 {
+  rotate: -25deg;
+}
+.p4 {
+  rotate: 28deg;
+}
+.p5 {
+  rotate: -45deg;
+}
+.p6 {
+  rotate: 34deg;
+}
+.p7 {
+  rotate: 210deg;
+}
+.p8 {
+  rotate: 265deg;
 }
