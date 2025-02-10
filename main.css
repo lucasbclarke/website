@@ -1,6 +1,17 @@
-body {
+html {
   background-color: #ffffa5;
+  
+  overflow: auto !important;
+  scrollbar-width: none !important; 
+  
+
 }
+
+
+html::-webkit-scrollbar {
+  display: none !important; 
+}
+
 
 h1 {
   color: olive;
@@ -11,9 +22,12 @@ h1 {
   display: inline;
 }
 
-div {
+.d1 {
   font-family: "Comic Sans", "Comic Sans MS";
   color: #eaeef2;
+}
+
+.d2 {
 }
 
 p {
@@ -48,4 +62,9 @@ p {
 }
 .p8 {
   rotate: 265deg;
+}
+.p9 {
+}
+.p10 {
+  margin-top: 100000cm;
 }
