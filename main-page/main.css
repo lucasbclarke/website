@@ -6,7 +6,6 @@ html {
   scrollbar-width: none !important; 
   */
   
-
 }
 
 /*
@@ -14,6 +13,7 @@ html::-webkit-scrollbar {
   display: none !important; 
 }
 */
+
 
 
 h1 {
@@ -68,6 +68,7 @@ p {
 }
 .p9 {
 }
+
 .p10 {
   margin-top: 100000cm;
 }
