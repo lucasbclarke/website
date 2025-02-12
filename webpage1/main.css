@@ -5,3 +5,7 @@ color: 5f008b;
 background: maroon
 
 }
+
+a:active, a:visited {
+  padding-top: 0.000001px;
+}
