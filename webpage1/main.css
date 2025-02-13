@@ -15,3 +15,9 @@ background-color: white;
 a:active, a:visited {
   padding-top: 0.000001px;
 }
+
+img{
+
+height: 200px;
+width: 200px;
+}
