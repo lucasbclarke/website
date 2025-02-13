@@ -2,23 +2,39 @@ p{
 text-align:center;
 width: 200;
 color: 5f008b;
-background: maroon
-
 }
-
 p1{
 color: white;
 background-color: white;
 
 }
 
+
+html {
+  background-color: maroon;
+  
+  
+  overflow: auto !important;
+  scrollbar-width: none !important;
+  
+}
+html::-webkit-scrollbar {
+  display: none !important; 
+}
+
+
 a:active, a:visited {
   padding-top: 0.000001px;
 }
-
 img{
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+height: 50px;
+width: 50px;
+=======
+>>>>>>> origin/master
 height: 100px;
 width: 100px
 =======
