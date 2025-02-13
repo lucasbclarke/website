@@ -1,8 +1,15 @@
 p{
 text-align:center;
-width: 400;
+width: 200;
 color: 5f008b;
 background: maroon
+
+}
+
+p1{
+color: white;
+background-color: white;
+
 }
 
 a:active, a:visited {
