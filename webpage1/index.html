@@ -876,13 +876,17 @@ Ewe: nya (Nya)
 
 Dagbani: tia (Tia)
 
-English: Continue
+English: 
 
-
-
-//alert('Incorrect answer. Please try again.');
-//
-
+<span class="word">continue</span>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const word = document.querySelector('span.word');
+    word.addEventListener('click', () => {
+      alert('remember the first letter is A');
+    });
+  });
+</script>
 
 Mampruli: tia (Tia)
 
