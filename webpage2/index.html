@@ -6,4 +6,18 @@
 <h3>
 If you want to continue you must go to the<br> link provided and it should be there somewhere
 
+    <script>
+        function checkAnswer() {
+            const answer = document.getElementById('answer').value;
+            if (answer === '4231') {
+                window.location.href = '';
+            } else {
+                alert('the next letter is B');
+            }
+        }
+    </script>
+
+    <h1>Enter the Correct Answer</h1>
+    <input type="text" id="answer" placeholder="To proceed go to my github">
+    <button onclick="checkAnswer()">Submit</button>
 </h3>
