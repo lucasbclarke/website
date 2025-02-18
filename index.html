@@ -2,31 +2,15 @@
 <html>
   <head>
     <link rel="stylesheet" href="main.css">
+    <script type="text/javascript" src="index.js"></script>
+
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 
-    <audio id="nothing-special" autoplay=true src="nothing-special.mp3" > Failed</audio>
-    <script>
-      var x = document.getElementById("nothing-special"); 
-
-      function playAudio() { 
-        x.play(); 
-      } 
-
-      var lastScrollTop = 0;
-      // element should be replaced with the actual target element on which you have applied scroll, use window in case of no target element.
-
-      window.addEventListener("scroll", function(){
-        var st = window.pageYOffset || document.documentElement.scrollTop;
-        playAudio();
-
-        //lastScrollTop = st <= 0 ? 0 : st; // For Mobile or negative scrolling
-
-      }, false);
-
-    </script>
-
+    <audio src="./nothing-special.mp3" autoplay loop></audio>
   </head>
-  
+
+  <body onclick="audio.play();">
+
   <center>
       <h1>
         This is a test
@@ -58,5 +42,7 @@
     </p>
   
   </center>
+
+  </body>
   
 </html>
