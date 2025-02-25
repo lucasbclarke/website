@@ -67,7 +67,13 @@ p {
   margin-top: 50cm;
   font-size: 110px;
   font-family: "Dancing Script";
+  rotate: 3deg;
 }
 .p10 {
   margin-top: 100000cm;
+}
+.name:nth-child(3n) {
+  display: inline-block;
+  rotate: -3deg;
+  text-decoration: underline;
 }
