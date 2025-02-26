@@ -14,8 +14,9 @@
             const answer1 = document.getElementById('answer1').value;
             const answer2 = document.getElementById('answer2').value;
             const answer3 = document.getElementById('answer3').value;
+            const answer4 = document.getElementById('answer4').value;
 
-            const correctAnswers = ["BEEsAreCoOl", "Deadpool Vs Wolverine", "si"];
+            const correctAnswers = ["BEEsAreCoOl", "Deadpool Vs Wolverine", "si", "time"];
 
             if (answer1 === correctAnswers[0] && answer2 === correctAnswers[1] && answer3 === correctAnswers[2]) {
                 window.location.href = "correct.html";
@@ -23,11 +24,13 @@
                 document.getElementById('answer1').disabled = true;
                 document.getElementById('answer2').disabled = true;
                 document.getElementById('answer3').disabled = true;
+                document.getElementById('answer4').disabled = true;
                 document.getElementById('error').textContent = "Wrong answers! Try again in 2 minutes.";
                 setTimeout(() => {
                     document.getElementById('answer1').disabled = false;
                     document.getElementById('answer2').disabled = false;
                     document.getElementById('answer3').disabled = false;
+                    document.getElementById('answer4').disabled = false;
                     document.getElementById('error').textContent = "";
                 }, 120000); // 2 minutes in milliseconds
             }
@@ -99,10 +102,16 @@ Parenthood: Shrek learns to balance his responsibilities as a father while still
 <br><br>7. Character Development: Over the course of his adventures, Shrek undergoes significant personal growth. He evolves from a solitary ogre who mistrusts the world to a loving husband, father, and friend who embraces the importance of community and acceptance.
 <br> <span style="color:white"> the next letter is J</span>
 <br>8. Impact and Legacy: Shrek's character has left a lasting impact on audiences worldwide. His journey of self-acceptance, love, and friendship resonates with people of all ages. The "Shrek" franchise's success has cemented Shrek as an iconic character in animated cinema
- <br><br><br>   </p3>
+ <br></p3><br>
+        <label for="answer4">Answer 4:</label>
+        <input type="text" id="answer4"><br><br>
+<p4>This thing all things devours: birds, beasts, trees, flowers; gnaws iron, bites steel; <br>
+grinds hard stones to meal; slays king, ruins town, and beats high mountain down. 
+</p4><br><br><br><br>
         <input type="submit" value="Submit">
     </form>
     <p id="error" style="color: red;"></p>
+<br>
 </body>
 <br>
 </html>
