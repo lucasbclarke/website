@@ -44,12 +44,34 @@
 <body>
     <div class="ads">
         <script>
-            for (let i = 0; i < 10; i++) {
+            const adTexts = [
+                "Win a Free Car!", "Claim Your Free Vacation!", "Exclusive Offer Just for You!", "Secret Trick to Get Rich!",
+                "New Job Openings - Apply Now!", "You Won't Believe This Hack!", "Meet Singles Near You!", "Best Shopping Deals Inside!",
+                "Get Free Crypto Today!", "Unlock Hidden Features on Your Phone!", "This Website Will Shock You!", "Try This for Instant Weight Loss!",
+                "Free Streaming - No Sign-up!", "Your Computer May Be Infected!", "Find Out What Celebrities Are Saying!", "Live Sports Streaming Here!",
+                "One Simple Trick for Better Sleep!", "Tech Experts Hate This New Invention!", "Watch Movies for Free!", "Click for a Surprise!",
+                "Win a Mystery Box!", "Upgrade Your Phone for Free!", "Get Instant Cash Rewards!", "Enter to Win Big!",
+                "Best Investment Tips!", "Secret Government Documents Leaked!", "This Game Will Change Your Life!", "Find Out Your Future Now!",
+                "Limited Time Discount Just for You!", "Claim Your Reward Now!"
+            ];
+
+            const adLinks = [
+                "https://www.youtube.com/watch?v=dQw4w9WgXcQ", "https://www.tiktok.com/", "https://www.instagram.com/",
+                "https://www.twitter.com/", "https://www.amazon.com/", "https://www.ebay.com/", "https://www.reddit.com/",
+                "https://www.craigslist.org/", "https://www.paypal.com/", "https://www.apple.com/", "https://www.microsoft.com/",
+                "https://www.wikipedia.org/", "https://www.netflix.com/", "https://www.hulu.com/", "https://www.twitch.tv/",
+                "https://www.spotify.com/", "https://www.discord.com/", "https://www.snapchat.com/", "https://www.pinterest.com/",
+                "https://www.roblox.com/", "https://www.epicgames.com/", "https://www.rockstargames.com/", "https://www.bbc.com/",
+                "https://www.cnn.com/", "https://www.nytimes.com/", "https://www.wsj.com/", "https://www.forbes.com/",
+                "https://www.businessinsider.com/", "https://www.bloomberg.com/", "https://www.cnbc.com/"
+            ];
+
+            for (let i = 0; i < 30; i++) {
                 let ad = document.createElement("div");
                 ad.className = "ad";
-                ad.innerText = "Click for Free Money!";
+                ad.innerText = adTexts[i];
                 ad.onclick = function() {
-                    window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+                    window.location.href = adLinks[i];
                 };
                 document.querySelector(".ads").appendChild(ad);
             }
@@ -67,18 +89,6 @@
         <p>His most significant achievement was the development of a variable air-intake system for steam locomotives, which allowed for better fuel efficiency.
            This invention, though largely overshadowed by more famous inventors, was quietly adopted by smaller railway networks.</p>
     </div>
-    <div class="ads">
-        <script>
-            for (let i = 0; i < 10; i++) {
-                let ad = document.createElement("div");
-                ad.className = "ad";
-                ad.innerText = "Win a Free iPhone!";
-                ad.onclick = function() {
-                    window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
-                };
-                document.querySelectorAll(".ads")[1].appendChild(ad);
-            }
-        </script>
-    </div>
 </body>
 </html>
+

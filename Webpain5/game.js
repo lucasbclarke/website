@@ -30,7 +30,7 @@ function updateScore() {
     // Check if the score reaches 15 and redirect
     if (score >= 15) {
         setTimeout(() => {
-            window.location.href = "https://example.com"; // Change to your desired URL
+            window.location.href = "../Webpage6/DOCTYPE.html"; // Change to your desired URL
         }, 500); // Short delay before redirecting
     }
 }
