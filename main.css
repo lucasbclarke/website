@@ -84,11 +84,28 @@ img.putin1 {
 }
 
 @keyframes putin {
-  to {
-    transform: rotate(360deg);
+  0% {
+    transform: rotate3d(137, 86, 32, 0deg);
+    margin: 90px;
+    border-width: 0px;
   }
+
+  50% {
+    transform: rotate3d(247, 230, 187, 180deg);
+    margin: 0px;
+    border: 90px solid #4D4986;
+  }
+
+  100% {
+    transform: rotate3d(148, 97, 37, 0deg);
+    margin: 90px;
+    border-width: 0px;
+  }
+
+
 }
 @keyframes .putin2 {
+
 }
 @keyframes .putin3 {
 }
