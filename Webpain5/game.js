@@ -22,6 +22,11 @@ function updateScore() {
     score++;
     scoreDisplay.textContent = score;
 
+    // Check if the score reaches 10 and show the message
+    if (score === 10) {
+        alert("The next letter is G");
+    }
+
     // Check if the score reaches 15 and redirect
     if (score >= 15) {
         setTimeout(() => {
