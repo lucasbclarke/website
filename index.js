@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 let score = 0;
 let target = document.getElementById('target');
 let scoreDisplay = document.getElementById('score');
@@ -46,3 +47,9 @@ target.addEventListener('click', () => {
 
 // Start the game when the page loads
 startGame();
+=======
+window.addEventListener('scroll', () => {
+  document.body.style.setProperty('--scroll',window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
+}, false);
+
+>>>>>>> origin/master

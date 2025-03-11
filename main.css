@@ -76,3 +76,41 @@ p {
   display: inline-block;
   rotate: -3deg;
 }
+img.putin1 {
+  animation: putin 1s linear infinite;
+  animation-delay: calc(var(--scroll) * -1s);
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+}
+
+@keyframes putin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes .putin2 {
+}
+@keyframes .putin3 {
+}
+@keyframes .putin4 {
+}
+@keyframes .putin5 {
+}
+@keyframes .putin6 {
+}
+@keyframes .putin7 {
+}
+@keyframes .putin8 {
+}
+@keyframes .putin9 {
+}
+@keyframes .putin10 {
+}
+@keyframes .putin11 {
+}
+@keyframes .putin12 {
+}
+@keyframes .putin13 {
+}
+@keyframes .putin14 {
+}
