@@ -132,4 +132,91 @@ The F-450’s emissions are higher per person transported, making it less effici
 
 <!--If you see this then you are in the wrong place, but also the right place-->
 
-<a href="../webpage4/index.html"><span style="color:F3F6EE">here</span></a>
+
+
+<button id="teleportButton">Here Continue</button> 
+
+  
+
+    <script> 
+
+        const button = document.getElementById('teleportButton'); 
+
+        const maxTeleports = 5; 
+
+        let teleportCount = 0; 
+
+  
+
+        // Function to generate random positions across the entire page 
+
+        function getRandomPosition() { 
+
+            const pageWidth = document.body.scrollWidth; 
+
+            const pageHeight = document.body.scrollHeight; 
+
+  
+
+            const x = Math.random() * (pageWidth - button.offsetWidth); 
+
+            const y = Math.random() * (pageHeight - button.offsetHeight); 
+
+  
+
+            return { x, y }; 
+
+        } 
+
+  
+
+        // Move the button to a random position 
+
+        function teleportButton() { 
+
+            if (teleportCount < maxTeleports) { 
+
+                const { x, y } = getRandomPosition(); 
+
+                button.style.left = `${x}px`; 
+
+                button.style.top = `${y}px`; 
+
+                teleportCount++; 
+
+            } else { 
+
+                // Redirect to the current page on the 6th press 
+
+                window.location.href = "../webpage4/index.html"; 
+
+            } 
+
+        } 
+
+  
+
+        // Check if the cursor is close to the button 
+
+        button.addEventListener('mousemove', () => { 
+
+            teleportButton(); 
+
+        }); 
+
+    </script> 
+    <style> 
+
+        #teleportButton { 
+
+            position: absolute; 
+
+            left: 50%; 
+
+            top: 50%; 
+
+            transform: translate(-50%, -50%); 
+
+        } 
+
+    </style> 
