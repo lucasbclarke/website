@@ -60,6 +60,29 @@ img.putin13 {
   animation: putin14 1s linear infinite;
 }
 
+img.tumbleweed {
+  animation: tumbleweed-spin 10s linear infinite, tumbleweed-move 10s alternate infinite linear;
+  position: absolute;
+}
+
+@keyframes tumbleweed-spin {
+    0% {
+      left: -250px;
+      rotate: 0deg;
+    }
+
+    100% {
+      left: calc(100vw);
+      rotate: 720deg;
+    }
+}
+
+@keyframes tumbleweed-move {
+  to {
+    transform: translatey(100%);
+  }
+}
+
 @keyframes putin1 {
   0% {
     transform: rotate3d(137, 86, 32, 0deg);
@@ -159,30 +182,32 @@ img.putin13 {
     border-width: 0px;
   }
 }
-@keyframes .putin6 {
+@keyframes putin6 {
 
 }
-@keyframes .putin7 {
+@keyframes putin7 {
 
 }
-@keyframes .putin8 {
+@keyframes putin8 {
 
 }
-@keyframes .putin9 {
+@keyframes putin9 {
 
 }
-@keyframes .putin10 {
+@keyframes putin10 {
 
 }
-@keyframes .putin11 {
+@keyframes putin11 {
 
 }
-@keyframes .putin12 {
+@keyframes putin12 {
 
 }
-@keyframes .putin13 {
+@keyframes putin13 {
 
 }
-@keyframes .putin14 {
+@keyframes putin14 {
 
 }
+
+
