@@ -123,25 +123,41 @@ img.putin13 {
 }
 @keyframes putin4 {
   0% {
-    transform: rotate3d(537, 123, 326, 0deg);
+    transform: rotate3d(-2, -5, -38, 0deg);
     margin: 90px;
     border-width: 0px;
   }
 
   50% {
-    transform: rotate3d(17, 838, 438, 180deg);
+    transform: rotate3d(38, 92, -82, 180deg);
     margin: 0px;
     border: 90px solid #4D4986;
   }
 
   100% {
-    transform: rotate3d(789, 978, 213, 0deg);
+    transform: rotate3d(23, -48, 72, 0deg);
     margin: 90px;
     border-width: 0px;
   }
 }
-@keyframes .putin5 {
+@keyframes putin5 {
+  0% {
+    transform: rotate3d(48, -56, 7, 0deg);
+    margin: 90px;
+    border-width: 0px;
+  }
 
+  50% {
+    transform: rotate3d(-99, 34, -4, 180deg);
+    margin: 0px;
+    border: 90px solid #4D4986;
+  }
+
+  100% {
+    transform: rotate3d(28, 82, -17, 0deg);
+    margin: 90px;
+    border-width: 0px;
+  }
 }
 @keyframes .putin6 {
 
