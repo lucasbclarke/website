@@ -1,0 +1,37 @@
+
+<title>Patience my child</title>
+
+<h1>Patience is a Virtue</h1>
+<h8>Its a long ride here's the last letter because I felt like it 'L'</h8><br>
+
+<button onclick="setTimeout(jumpscare, 1200000)">test your patience</button>
+
+<img src="jump.jpg" id="jump" style="display:none"> 
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<div id="button" style="display:none">
+  <button onclick="location.href='https://www.example.com';">Continue if you dare!</button>
+</div>
+
+<script>
+function jumpscare() {
+
+  var x = document.getElementById("jump");
+     x.style.display = "block";
+
+setTimeout(jumpoff, 500)
+}
+
+function jumpoff() {
+
+var x = document.getElementById("jump");
+x.style.display = "none";
+
+
+  var x = document.getElementById("button");
+     x.style.display = "block";
+}
+
+</script>
+
