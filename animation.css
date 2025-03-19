@@ -12,6 +12,54 @@ img.putin2 {
   animation: putin2 1s linear infinite;
 }
 
+img.putin3 {
+  animation: putin3 1s linear infinite;
+}
+
+img.putin4 {
+  animation: putin4 1s linear infinite;
+}
+
+img.putin5 {
+  animation: putin5 1s linear infinite;
+}
+
+img.putin6 {
+  animation: putin6 1s linear infinite;
+}
+
+img.putin7 {
+  animation: putin7 1s linear infinite;
+}
+
+img.putin8 {
+  animation: putin8 1s linear infinite;
+}
+
+img.putin9 {
+  animation: putin9 1s linear infinite;
+}
+
+img.putin10 {
+  animation: putin10 1s linear infinite;
+}
+
+img.putin11 {
+  animation: putin11 1s linear infinite;
+}
+
+img.putin12 {
+  animation: putin12 1s linear infinite;
+}
+
+img.putin13 {
+  animation: putin13 1s linear infinite;
+}
+
+img.putin13 {
+  animation: putin14 1s linear infinite;
+}
+
 @keyframes putin1 {
   0% {
     transform: rotate3d(137, 86, 32, 0deg);
@@ -35,44 +83,62 @@ img.putin2 {
 
 @keyframes putin2 {
   0% {
-    transform: rotate3d(137, 86, 32, 0deg);
+    transform: rotate3d(383, 249, 63, 0deg);
     margin: 90px;
     border-width: 0px;
   }
 
   50% {
-    transform: rotate3d(247, 230, 187, 180deg);
+    transform: rotate3d(9, 832, 243, 180deg);
     margin: 0px;
     border: 90px solid #4D4986;
   }
 
   100% {
-    transform: rotate3d(148, 97, 37, 0deg);
+    transform: rotate3d(64, 156, 32, 0deg);
     margin: 90px;
     border-width: 0px;
   }
 }
 
-@keyframes .putin3 {
+
+@keyframes putin3 {
   0% {
-    transform: rotate3d(137, 86, 32, 0deg);
+    transform: rotate3d(453, 736, 982, 0deg);
     margin: 90px;
     border-width: 0px;
   }
 
   50% {
-    transform: rotate3d(247, 230, 187, 180deg);
+    transform: rotate3d(-48, 420, 69, 180deg);
     margin: 0px;
     border: 90px solid #4D4986;
   }
 
   100% {
-    transform: rotate3d(148, 97, 37, 0deg);
+    transform: rotate3d(76, 123, 438, 0deg);
     margin: 90px;
     border-width: 0px;
   }
 }
-@keyframes .putin4 {
+@keyframes putin4 {
+  0% {
+    transform: rotate3d(537, 123, 326, 0deg);
+    margin: 90px;
+    border-width: 0px;
+  }
+
+  50% {
+    transform: rotate3d(17, 838, 438, 180deg);
+    margin: 0px;
+    border: 90px solid #4D4986;
+  }
+
+  100% {
+    transform: rotate3d(789, 978, 213, 0deg);
+    margin: 90px;
+    border-width: 0px;
+  }
 }
 @keyframes .putin5 {
 
