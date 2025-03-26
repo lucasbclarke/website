@@ -1,0 +1,14 @@
+@keyframes Pennyspin{
+    0% {
+      rotate: 0deg;
+    }
+
+    100% {
+      rotate: 720deg;
+    }
+}
+
+img {
+  height: 20px;
+animation: Pennyspin 3s linear 2s infinite ;
+}
