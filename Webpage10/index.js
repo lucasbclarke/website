@@ -1,3 +1,3 @@
 window.onload = function() {
-	window.open("https://google.com", '_blank');
+	window.open("index.html", '_blank');
 }
