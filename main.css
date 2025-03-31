@@ -1,18 +1,14 @@
 html {
   background-color: #ffffa5;
   
-  /*
   overflow: auto !important;
   scrollbar-width: none !important; 
-  */
   
 }
 
-/*
 html::-webkit-scrollbar {
   display: none !important; 
 }
-*/
 
 
 
