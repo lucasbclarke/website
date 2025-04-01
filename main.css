@@ -11,6 +11,9 @@ html::-webkit-scrollbar {
 }
 
 
+body {
+  scrollbar-width: none !important; 
+}
 
 h1 {
   color: olive;
