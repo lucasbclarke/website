@@ -1,0 +1,34 @@
+<script>
+    function checkAnswers(){
+        // The following is what I changed.
+        Student_answer = document.querySelector('[name="clave1"]').value
+        Teacher_answer = "numero"
+
+        if (Student_answer.length === 0 || Teacher_answer.length === 0) {
+            alert("I hope you didn't skip any pages?");
+            return false;
+        }
+
+        if (Student_answer === Teacher_answer) {
+            alert("Email me first to gain the prize (using this secret phrase 'once I had sanity' at dirtboy24@outlook.com.au");
+            document.body.innerHTML += '<button onclick="window.location.href = \'https://www.google.com\';">Continue</button>'
+            //NOTE: here is where the button should be activated and click on it to advance to an hyperlink 
+        } else {
+            alert("Wrong answer, please, keep trying...");
+            //NOTE: here the button must be disabled
+        }
+
+    }
+    </script>
+  </head>
+  <body>
+
+    <h3>Screw you, I have hidden a code throughout the entire website go back to find them! HAVE FUN!</h3>
+
+    <form action="" name="f1" onsubmit >
+      Your answer: <input type="password" name="clave1" size="20">
+      <br>
+      <br>
+      <input type="button" value="Check" onClick="checkAnswers()">
+
+    </form>
